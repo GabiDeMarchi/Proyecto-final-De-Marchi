@@ -1,0 +1,65 @@
+main{
+    background-image: url(../assets/images/fondo-contacts3.jpg);
+    background-position: bottom;
+    font-family: Quicksand;
+    height: 100%;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/static/Quicksand-Regular.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/static/Quicksand-SemiBold.ttf);
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+ /* Pagina principal */
+.main__logo {
+    background-image: url(../assets/images/imagensalon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.main__description{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.main__description-text{
+    color: rgb(131, 131, 131);
+}
+
+/* Galeria */
+.main__carousel{
+    height: 100vh;
+    width: 100%;
+}
+
+/* Servicios */
+
+.main__card{
+    font-family: Quicksand;
+    height: 100%;
+}
+
+/* Contacto */
+
+.main__contact{
+    height: 700px;
+}
