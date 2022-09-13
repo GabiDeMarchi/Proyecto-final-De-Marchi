@@ -32,6 +32,14 @@ main{
     display: grid;
     justify-items: center;
     align-items: center;
+
+}
+.main__logo img {
+    transition:transform 0.5s;
+}
+
+.main__logo img:hover {
+    transform: scale(1.05);   
 }
 
 .main__description{
@@ -56,6 +64,10 @@ main{
 .main__card{
     font-family: Quicksand;
     height: 100%;
+    transition:transform 0.5s;
+}
+.main__card:hover {
+    transform: scale(1.05);
 }
 
 /* Contacto */
