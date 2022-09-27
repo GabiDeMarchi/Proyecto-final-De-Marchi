@@ -1,0 +1,22 @@
+main{
+    background-image: url(../assets/images/fondo-contacts3.jpg);
+    background-position: bottom;
+    font-family: Quicksand;
+    height: 100%;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/static/Quicksand-Regular.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/static/Quicksand-SemiBold.ttf);
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}

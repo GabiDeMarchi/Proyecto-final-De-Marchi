@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-final-de-marchi",
+  "version": "1.0.0",
+  "description": "Proyecto Final Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabiDeMarchi/Proyecto-final-De-Marchi.git"
+  },
+  "author": "Gabriel De Marchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabiDeMarchi/Proyecto-final-De-Marchi/issues"
+  },
+  "homepage": "https://github.com/GabiDeMarchi/Proyecto-final-De-Marchi#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

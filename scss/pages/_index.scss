@@ -1,0 +1,50 @@
+.main__logo {
+    background-image: url(../assets/images/imagensalon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    & img {
+        transition:transform 0.5s;
+        height: 50vh;
+        width: 50vh;
+        opacity: .7;
+
+        &:hover {
+            transform: scale(1.05);   
+        }
+    }
+}
+
+.main__description{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 150px;
+    width: 100%;
+
+    &-text{
+        color: rgb(131, 131, 131);
+    }
+}
+
+
+@media (max-width: 423px){
+    .main__logo img {
+        transition:transform 0.5s;
+        height: 50vh;
+        width: 80vw;
+        opacity: .6;
+    }
+    .main__description{
+        display: grid;
+        justify-content:start;
+        align-content:flex-start;
+        padding-top: 150px;
+    }
+}        
