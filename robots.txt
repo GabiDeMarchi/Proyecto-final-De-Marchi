@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gabidemarchi.github.io/Proyecto-final-De-Marchi/index.html/sitemap.xml
