@@ -33,9 +33,13 @@ main{
     justify-items: center;
     align-items: center;
 
+
 }
 .main__logo img {
     transition:transform 0.5s;
+    height: 50vh;
+    width: 50vh;
+    opacity: .7;
 }
 
 .main__logo img:hover {
@@ -47,6 +51,7 @@ main{
     justify-items: center;
     align-items: center;
     padding: 150px;
+    width: 100%;
 }
 
 .main__description-text{
@@ -55,8 +60,10 @@ main{
 
 /* Galeria */
 .main__carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    width: 100%;
 }
 
 /* Servicios */
@@ -74,4 +81,25 @@ main{
 
 .main__contact{
     height: 700px;
+}
+
+/* Como llegar */
+.map{
+    width: 100vw;
+}
+
+
+/* Media Queries */
+@media (max-width: 423px) {
+    .main__logo img {
+        transition:transform 0.5s;
+        height: 50vh;
+        width: 80vw;
+        opacity: .6;
+    }
+    .main__description{
+        display: grid;
+        justify-content:start;
+        align-content:flex-start;
+        padding-top: 150px;
 }
